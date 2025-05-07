@@ -1,17 +1,67 @@
 {
-      "id": "unique_id",
+  "categories": [
+    {
+      "id": "chat",
+      "name": "ChatBot"
+    },
+    {
+      "id": "txtspeech",
+      "name": "Test To Speech"
+    },
+    {
+      "id": "visual",
+      "name": "Visual Generation"
+    },
+    {
+      "id": "other",
+      "name": "Other Tools"
+    }
+  ],
+  "websites": [
+    {
+      "id": "duck",
+      "name": "Duck Ai",
+      "url": "https://Duck.ai",
+      "icon": "https://upload.wikimedia.org/wikipedia/en/9/90/The_DuckDuckGo_Duck.png",
+      "description": "chatbot service that allows users to interact with multiple AI models without tracking or storing conversations. It supports models such as OpenAI's GPT-4o mini, Anthropic's Claude 3 Haiku, Meta's Llama 3.3, and Mistral's Mixtral 8x7B, providing a diverse AI experience. The service is free to use, requires no account",
+      "category": "chat",
+      "isFeatured": true
+    },
+    {
+      "id": "site1",
       "name": "Website Name",
       "url": "https://website-url.com",
       "icon": "https://path-to-icon.png",
       "description": "Website description",
-      "category": "category_id",
-      "isFeatured": true/false
-    }
-  ],
-  "categories": [
+      "category": "chat",
+      "isFeatured": false
+    },
     {
-      "id": "category_id",
-      "name": "Category Name"
+      "id": "site2",
+      "name": "Website Name",
+      "url": "https://website-url.com",
+      "icon": "https://path-to-icon.png",
+      "description": "Website description",
+      "category": "txtspeech",
+      "isFeatured": false
+    },
+    {
+      "id": "site3",
+      "name": "Website Name",
+      "url": "https://website-url.com",
+      "icon": "https://path-to-icon.png",
+      "description": "Website description",
+      "category": "visual",
+      "isFeatured": false
+    },
+    {
+      "id": "site4",
+      "name": "Website Name",
+      "url": "https://website-url.com",
+      "icon": "https://path-to-icon.png",
+      "description": "Website description",
+      "category": "other",
+      "isFeatured": false
     }
   ]
 }
